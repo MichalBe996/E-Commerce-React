@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0px 11px 30px -3px rgba(66, 68, 90, 1);
+}
+
+.navbar--header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+}
+
+.navbar--logo {
+  width: 5rem;
+}
+
+.logo--div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.logo--div > * {
+  padding: 0.5rem;
+}
+
+.navbar--buttons--div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.navbar--button {
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.navbar--button:hover {
+  border: 3px solid white;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+
+}
+.items--quantity {
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.cart--quant {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.products--list {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+
+
+.product--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product--image {
+  max-width: 12rem;
+  max-height: 93px;
+  margin-bottom: 1rem;
+}
+
+.product--data {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-end;
+}
+
+.product--data > * {
+  margin: 3px;
+}
+.product--price {
+  font-weight: 1000;
+}
+
+.product--rating {
+  font-style: italic;
+}
+
+.add--button {
+  width: 90%;
+  height: 2rem;
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  border-radius: 25px;
+  font-size: 1rem;
+  border: 3px solid black;
+
+
+}
+
+.add--button:hover {
+  border: 3px solid white;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+
+.cart--items--total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cart--item--div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 500px;
+  text-align: right;
+  border: 1px solid black;
+
+}
+
+.cart--image {
+    float: left;
+    max-width:  90px;
+    max-height: 90px;
+    object-fit: scale-down;
+    align-self: center;
+    justify-self: center;
+}
+
+.cart--item--div > * {
+  margin: 2rem;
+}
+
+.cart--items--total > * {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.cart--items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: right;
+}
