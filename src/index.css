@@ -179,3 +179,16 @@
   align-items: center;
   text-align: right;
 }
+
+.increase--decrease {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.25rem;
+  font-weight: bold;
+  background-color: gainsboro;
+  border-radius: 25%;
+}
+
+.total--div {
+  border: 2px solid black;
+}
